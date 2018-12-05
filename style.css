@@ -1,0 +1,40 @@
+/* MOBIL ANPASSAD*/
+.clearfix{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+header img{
+    float: left;
+    margin: 40%;
+}
+header h1{
+    float: right;
+    text-align: center;
+    font-size: 5em;
+    margin: 40%;
+    
+
+}
+
+
+
+@media (min-width: 600px) {
+/*GAMLA WEBBLÄSARE */
+
+
+
+
+
+
+}
+
+@supports(display:grid){
+/*NYA WEBBLÄSARE*/
+
+}
