@@ -2,10 +2,10 @@
 .clearfix{
     clear: both;
 }
-
-*{
-    box-sizing: border-box; 
+body{
+    margin: 0;
 }
+
 
 .wrapper{
     width: 100%;
@@ -14,27 +14,14 @@
 }
 
 header{
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: antiquewhite;
+    background-color: #34302B;
 }
 header img{
-    float: left;
-    border: 1px solid black;
     width: auto;
     height: 100%;
 
 }
-header h1{
-    display: block;
-    float: right;
-    width: 55%;
-    height: auto;
-    text-align: center;
-    font-size: 5em;
-    border: 1px solid black;
-}
+
 nav{
     width: 100%;
     height: auto;
@@ -44,7 +31,7 @@ nav ul{
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: #34302B;
       }
 
 nav li{
