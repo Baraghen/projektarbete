@@ -93,13 +93,45 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
+
+footer{
+    border-top: 1px solid black;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    /* padding-bottom: 30%; */
+ 
+ }
+ footer div{
+    text-align: center;
+    margin:0;
+    padding: 10%;
+ }
+ footer ul{
+    float:left;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 3%;
+    padding-left:15%;
+    text-align: center;
+ }
+ .rightul{
+    float:right;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 3%;
+    padding-right:15%;
+    text-align:center;
+ }
 @media (min-width: 600px) {
     /*GAMLA WEBBLÄSARE */
     
     
     
     
-    
+
     
 }
 
