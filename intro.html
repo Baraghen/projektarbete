@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +15,6 @@
         <h1>Post-CSS</h1>
     </header>
 
-    <div class="clearfix"></div>
-    
         <nav>
             <ul>
                 <li><a href="intro.html">Intro</a></li>
@@ -24,58 +23,78 @@
                 <li><a href="funktioner.html">Plug-ins</a></li>
             </ul>
         </nav>
-    
-    <main>
-        <article>
-            <section>
-            <h1>Introduktion</h1>
 
-            <p>
-                Kort sagt fungerar PostCSS ungefär som ett ramverk till CSS. PostCSS använder sig utav Javascript baserade
-                plug-ins för att förenkla rutinarbeten i CSS.
-                PostCSS har bland annat använts för att utveckla koden till t.e.x Wikipedia, Facebook och Github.
-            </p>
-            </section>
+        <main>
+            <article>
+                <section>
+                    <h1>Introduktion</h1>
+
+                    <p>
+                        Kort sagt fungerar PostCSS ungefär som ett ramverk till CSS. PostCSS använder sig utav
+                        Javascript baserade
+                        plug-ins för att förenkla rutinarbeten i CSS.
+                        PostCSS har bland annat använts för att utveckla koden till t.e.x Wikipedia, Facebook och
+                        Github.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Preprocessorer (hjälpprocessorer)</h2>
+
+                    <p>
+                        För att gå in lite djupare om hur PostCSS fungerar behöver vi förklara vad en Preprocessor är.
+                        Traditionella preprocessorer såsom Sass, Less och Stylus har blivit en stor del av
+                        webbutvecklingen.
+                        (En preprocessor är ett datorprogram som formaterar data du skriver i tex CSS, producerar fram
+                        en “output
+                        data” som sedan används som “input data” i ett annat program). <br>
+                        Dessa program är väldigt användbara och används flitigt. De skapar unika stilar och ger dig
+                        möjligheten att
+                        skriva tex CSS på många olika sätt. Men dessa ger också konsekvenser, tex så har varje
+                        preprocessor en unik
+                        standard, de tar ingen hänsyn till W3Cs webbstandarder.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>PostCSS</h2>
+                    <a href=""></a>
+
+                    <p>
+                        Nu när vi förklarat detta kan vi börja tala om PostCSS. PostCSS hjälper dig ungefär på samma
+                        sätt som
+                        preprocessorer men fungerar inte likadant. PostCSS gör nämligen inte mycket av sig självt, den
+                        erbjuder en
+                        CSS <a href="https://www.techopedia.com/definition/3854/parser" target="_blank">parser</a> och
+                        ett ramverk för att skapa plugins. PostCSS tar din CSS-fil, analyserar den, modifierar reglerna
+                        i filen och transformerar den till ett abstrakt syntax träd. Därefter körs denna kod genom en
+                        serie plugins (man väljer själv), och konkatenerar sedan dessa tillbaka till en string.
+                        Eftersom du
+                        har möjligheten att välja plugins själv är strängen du skapar unikt anpassad efter dina egna
+                        behov och
+                        du väljer själv hur slutresultatet blir. På så vis kan du bl.a välja om du vill följa
+                        webbstandarder eller inte.
+                    </p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="https://postcss.org/" target="_blank">PostCSS</a></li>
+                <li><a href="https://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/" target="_blank">Davidtheclark</a></li>
+                <li><a href="https://www.sitepoint.com/an-introduction-to-postcss/" target="_blank">Sitepoint</a></li>
+            </ul>
+            <ul class="rightul">
+                <li><a href="om-projektet.html" target="_blank">Om projektet</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/PostCSS" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.smashingmagazine.com/2015/12/introduction-to-postcss/" target="_blank">Smashingmagazine</a></li>
+            </ul>
             
-            <section>
-            <h2>Preprocessorer (hjälpprocessorer)</h2>
-
-            <p>
-                För att gå in lite djupare om hur PostCSS fungerar behöver vi förklara vad en Preprocessor är.
-                Traditionella preprocessorer såsom Sass, Less och Stylus har blivit en stor del av webbutvecklingen.
-                (En preprocessor är ett datorprogram som formaterar data du skriver i tex CSS, producerar fram en “output
-                data” som sedan används som “input data” i ett annat program). <br>
-                Dessa program är väldigt användbara och används flitigt. De skapar unika stilar och ger dig möjligheten att
-                skriva tex CSS på många olika sätt. Men dessa ger också konsekvenser, tex så har varje preprocessor en unik
-                standard, de tar ingen hänsyn till W3Cs webbstandarder.
-            </p>
-            </section>
-
-            <section>
-                <h2>PostCSS</h2>
-                <a href=""></a>
-
-                <p>
-                    Nu när vi förklarat detta kan vi börja tala om PostCSS. PostCSS hjälper dig ungefär på samma sätt som
-                    preprocessorer men fungerar inte likadant. PostCSS gör nämligen inte mycket av sig självt, den erbjuder en
-                    CSS <a href="https://www.techopedia.com/definition/3854/parser" target="_blank">parser</a> och ett ramverk för att skapa plugins. PostCSS tar din CSS-fil, analyserar den, modifierar reglerna
-                    i filen och transformerar den till ett abstrakt syntax träd. Därefter körs denna kod genom en
-                    serie plugins (man väljer själv), och konkatenerar sedan dessa tillbaka till en string. Eftersom du 
-                    har möjligheten att välja plugins själv är strängen du skapar unikt anpassad efter dina egna behov och
-                    du väljer själv hur slutresultatet blir. På så vis kan du bl.a välja om du vill följa webbstandarder eller inte.
-                </p>
-            </section>
-        </article>
-    </main>
-    <footer>
-        <h4>Referenser: </h4>
-        <a href="https://postcss.org/" target="_blank">PostCSS</a>
-        <a href="https://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/" target="_blank">Davidtheclark</a>
-        <a href="https://www.sitepoint.com/an-introduction-to-postcss/" target="_blank">Sitepoint</a>
-        <a href="https://en.wikipedia.org/wiki/PostCSS" target="_blank">Wikipedia</a>
-        <a href="https://www.smashingmagazine.com/2015/12/introduction-to-postcss/" target="_blank">Smashingmagazine</a>
-        <a href="om-projektet.html" target="_blank">Om projektet</a>
-    </footer>
+               
+            <div>
+                Karl Berglöf & Samir Blom &#169;
+            </div>
+        </footer>
 </body>
 
 </html>
