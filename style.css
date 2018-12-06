@@ -3,37 +3,30 @@
     clear: both;
 }
 
-*{
-    box-sizing: border-box; 
-}
-
 .wrapper{
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
 
-header{
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: antiquewhite;
+body{
+    margin: 0;
 }
-header img{
-    float: left;
-    border: 1px solid black;
-    width: auto;
-    height: 100%;
 
+header{
+    background-color: pink;
+}
+
+header img{
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 header h1{
-    display: block;
-    float: right;
-    width: 55%;
-    height: auto;
     text-align: center;
     font-size: 5em;
-    border: 1px solid black;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
     width: 100%;
