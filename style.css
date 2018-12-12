@@ -203,6 +203,18 @@ footer ul{
         background-color: rgb(255, 255, 255);
         min-height: 621px;
     }
+    article a{
+        color: black;
+    }
+
+    article li{
+        margin: 16px 0px;
+    }
+
+    article img{
+        width: 125px;
+        margin: 0px 30px 10px 20px;
+    }
 
     /*FOOTER*/
 
@@ -212,6 +224,15 @@ footer ul{
         margin: 0 auto;
         background-color: white;
         border-top: 1px solid black;
+    }
+
+    footer a{
+        color: black;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        text-decoration-line: underline;
     }
 
     footer div{
