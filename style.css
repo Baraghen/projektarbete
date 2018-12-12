@@ -153,16 +153,17 @@ footer ul{
         height: 95%;
         width: auto;
         margin: 5px;
-        margin-left: 30%;
+        margin-left: 33%;
     }
     header h1{
         display: block;
         float: left;
         width: auto;
         height: 50%;
+        font-size: 5em;
         margin-top: 3%;
         color: #F6FCFF;
-          }
+    }
 
     /*NAVIGATION*/
 
