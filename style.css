@@ -4,8 +4,10 @@
 }
 
 header{
+    background-color: #3E4037;
      padding: 5px; 
 }
+
 header img{
     display: block;
     margin: auto;
@@ -15,6 +17,7 @@ header h1{
     text-align: center;
     font-size: 5em;
     margin: 0;
+    color: #5F6D80;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -25,15 +28,16 @@ header h1{
  nav{
     width: 100%;
     height: auto;
+    
 }
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
     display: table;
     width: 100%;
+    background-color:#3E4037;
 }
 
 nav li{
@@ -51,20 +55,25 @@ nav li a {
 nav li a:hover {
     background-color: #111;
 } 
-
+        /*MAIN CONTENT*/
 body{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80f1f40a4310413957efcd0dc310d64c7745ce94
 article{
-    margin: 0px 5px;
-    text-align: center;
+    margin: 5%;
 }
 
 article img{
     display: block;
-    width: 100px;
-    margin: auto;
+    float:left;
+    width: 50px;
+    margin: 5%;
 }
 
 article ul{
@@ -80,16 +89,21 @@ article h2{
     margin: 0;
     padding-bottom: 5px;
 }
+h1{
+    font-size: 2em;
+}
 
 h1, h2, h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
+
+
+        /*FOOTER*/
 
 footer{
     border-top: 1px solid black;
