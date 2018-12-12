@@ -9,7 +9,6 @@ header{
 }
 
 header img{
-    display: block;
     margin: auto;
     width: 100%;
 }
@@ -256,6 +255,4 @@ footer ul{
 @supports(display:grid){
     /*NYA WEBBLÄSARE*/
 
-    
-    
-}
+    }
