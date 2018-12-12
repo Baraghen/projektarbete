@@ -133,7 +133,8 @@ footer ul{
         margin: 0px;
         height: 200px;
         border-bottom: 1px solid black;
-        width: 100%;
+        width: auto;
+        background-color: white;
 
     }
     header img{
@@ -141,12 +142,14 @@ footer ul{
         height: 95%;
         width: auto;
         margin: 5px;
+        margin-left: 30%;
     }
     header h1{
         display: block;
         float: left;
         width: auto;
         height: 50%;
+        margin-top: 3%;
           }
 
     /*NAVIGATION*/
@@ -169,7 +172,7 @@ footer ul{
       }
      nav li{
           float:left;
-          min-width: 200öpx; 
+          min-width: 200px; 
       }
       
       nav li a {
@@ -191,6 +194,11 @@ footer ul{
         margin: 0px; 
         float: left;
         background-color: green;
+    }
+
+    body{
+        background-color: lightgray;
+        
     }
 
     /*FOOTER*/
