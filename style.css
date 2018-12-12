@@ -56,10 +56,6 @@ body{
     margin: 0;
 }
 
-/* main{
-    display:center; 
-} */
-
 article{
     margin: 0px 5px;
     text-align: center;
@@ -97,7 +93,6 @@ p{
 
 footer{
     border-top: 1px solid black;
-    background-color: grey;
     width: 100%;
     height: 100%; 
 }
@@ -126,15 +121,19 @@ footer ul{
 /*GAMLA WEBBLÄSARE */
 @media (min-width: 600px) {
 
+    html{
+        overflow-y: scroll;
+    }
+
     /* HEADER*/
 
     header{
         display: block;
         margin: 0px;
         height: 200px;
-        border-bottom: 1px solid black;
+        /* border-bottom: 1px solid black; */
         width: auto;
-        background-color: white;
+        background-color: rgb(100, 100, 100);
 
     }
     header img{
@@ -158,8 +157,7 @@ footer ul{
         display:block;
         float:left;
         width: 15%;
-        margin:0px;
-        
+        margin:0px;        
     }
 
     nav ul {
@@ -172,7 +170,7 @@ footer ul{
       }
      nav li{
           float:left;
-          min-width: 200px; 
+          width: 100%;
       }
       
       nav li a {
@@ -193,15 +191,34 @@ footer ul{
         width: 70%;
         margin: 0px; 
         float: left;
-        background-color: green;
-    }
-
-    body{
-        background-color: lightgray;
-        
+        background-color: rgb(255, 255, 255);
+        min-height: 621px;
     }
 
     /*FOOTER*/
+
+    footer{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        background-color: white;
+        border-top: 1px solid black;
+    }
+
+    footer div{
+        height: 50px;
+        padding: 0;
+    }
+
+    footer ul{
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    
+     .rightul{
+        margin-right: 20%;
+        margin-top: 3%;
+    }
 
     
 }
