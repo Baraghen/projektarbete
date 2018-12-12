@@ -157,7 +157,7 @@ footer ul{
     nav{
         display:block;
         float:left;
-        width: 25%;
+        width: 15%;
         margin:0px;
         
     }
@@ -190,7 +190,7 @@ footer ul{
     /*MAIN CONTENT*/
     main{
         display: block;
-        width: 50%;
+        width: 70%;
         margin: 0px; 
         float: left;
         background-color: green;
