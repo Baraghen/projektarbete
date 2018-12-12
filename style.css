@@ -182,10 +182,10 @@ footer ul{
       
       nav li a {
         display: block;
-        padding: 8px 16px;
+        padding: 2px 16px;
         text-decoration: none;
         color: black;
-        text-align: left;
+        margin: 8px 0px;
       }
       
      nav li a:hover {
