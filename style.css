@@ -142,14 +142,12 @@ footer ul{
 
     header{
         display: block;
-        margin: 0px;
         height: 200px;
         width: auto;
         background-color: #3D3D3D;
-
     }
     header img{
-        float:left;
+        float: left;
         height: 95%;
         width: auto;
         margin: 5px;
@@ -159,7 +157,6 @@ footer ul{
         display: block;
         float: left;
         width: auto;
-        height: 50%;
         font-size: 5em;
         margin-top: 3%;
         color: #F6FCFF;
