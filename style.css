@@ -112,7 +112,7 @@ footer{
 
 footer div{
     text-align: center;
-    margin:0;
+    margin: 0;
     padding: 5%;
 }
 
@@ -132,7 +132,7 @@ footer ul{
 }
 
 /*GAMLA WEBBLÄSARE */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 
     html{
         overflow-y: scroll;
@@ -146,21 +146,24 @@ footer ul{
         width: auto;
         background-color: #3D3D3D;
     }
+    .headcontent{
+        display: inline-block;
+        height: 100%;
+        width: auto;
+        margin-left: 25%;
+       }
+    
     header img{
         float: left;
         height: 95%;
         width: auto;
         margin: 5px;
-        margin-left: 33%;
     }
     header h1{
-        display: block;
-        float: left;
-        width: auto;
-        font-size: 5em;
-        margin-top: 3%;
+        float:left;
         color: #F6FCFF;
-    }
+        font-size: 8vw;
+          }
 
     /*NAVIGATION*/
 
@@ -259,6 +262,4 @@ footer ul{
 @supports(display:grid){
     /*NYA WEBBLÄSARE*/
 
-    
-    
-}
+    }
