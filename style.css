@@ -80,7 +80,7 @@ article li{
 }
 
 li p{
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 article h2{
@@ -193,6 +193,7 @@ footer ul{
         padding: 8px 16px;
         text-decoration: none;
         color: black;
+        font-size: 20px;
       }
       
      nav li a:hover {
