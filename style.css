@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: #3D3D3D;
+    background-color: rgb(65, 62, 82);
      padding: 5px; 
 }
 
@@ -145,7 +145,7 @@ footer ul{
         display: block;
         height: 200px;
         width: auto;
-        background-color: #3D3D3D;
+        background-color: rgb(65, 62, 82);
     }
     .headcontent{
         display: inline-block;
@@ -181,7 +181,7 @@ footer ul{
         padding: 0;
         overflow:none;
         width: 100%;
-        background-color: #faf8f5;
+        background-color: #f1f4fa;
       }
      nav li{
           float:left;
@@ -193,7 +193,7 @@ footer ul{
         padding: 8px 16px;
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        font-size: 24px;
       }
       
      nav li a:hover {
@@ -204,7 +204,7 @@ footer ul{
     /*MAIN CONTENT*/
 
     body{
-        background-color: #faf8f5;
+        background-color: #f1f4fa;
     }
 
     main{
@@ -231,7 +231,7 @@ footer ul{
         display: block;
         margin: 0 auto;
         background-color: white;
-        border-top: 1px solid black;
+        border-top: 1px solid #00000048;
     }
 
     footer a{
@@ -290,7 +290,6 @@ footer ul{
             grid-column: 1;
             grid-row: 2;
             width: 100%;
-            text-align: center;
         }
         main{
             grid-column: 2;
