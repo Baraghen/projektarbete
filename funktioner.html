@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     
     <nav>
         <ul>
-            <li><a href="intro.html">Intro</a></li>
+            <li><a href="intro.html">Introduktion</a></li>
             <li><a href="historik.html">Historik</a></li>
             <li><a href="om-postcss.html">Om PostCSS</a></li>
             <li><a href="funktioner.html">Plug-ins</a></li>
@@ -28,46 +28,36 @@
     
     <main>
         <article>
-            <h1>Plug-ins</h1>
+            <h2>Plug-ins</h2>
 
             <ul>
-                <section>
+                <li>
+                    <h3 class="clearfix">Autoprefixer</h3>
+                    <a href="bilder/autoprefixer.png"><img src="bilder/autoprefixer.png" alt="Autoprefixerexempel"></a>
+                    <p>Auto prefixer används för att lägga till och ta bort webbläsares prefixes med
+                    godkända värden från Can I Use. Autoprefixer använder sig av en webbläsarlista så man kan själv ställa in prefixen mot en specifik
+                    webbläsare. Användbart om du tex arbetar mot en kund som bara använder sig av en webbläsare.<br>
+                    Autoprefixer är den mest populära av Post-CSS alla plug-ins. Enligt Sitepoint använder 56%
+                    av alla Post-CSS användare denna plug-in.
+                    </p>
+                </li>
                     <li>
-                        <h2>Autoprefixer</h2>
-                        <a href="bilder/autoprefixer.png"><img src="bilder/autoprefixer.png" alt="Autoprefixerexempel"></a>
-                        <p>Auto prefixer används för att lägga till och ta bort webbläsares prefixes med
-                        godkända värden från Can I Use. Autoprefixer använder sig av en webbläsarlista så man kan själv ställa in prefixen mot en specifik
-                        webbläsare. Användbart om du tex arbetar mot en kund som bara använder sig av en webbläsare.<br>
-                        Autoprefixer är den mest populära av Post-CSS alla plug-ins. Enligt Sitepoint använder 56%
-                        av alla Post-CSS användare denna plug-in.
-                        </p>
-                    </li>
-                </section>
-                <div class="clearfix"></div>
-                <section>
-                    <li>
-                        <h2>CSS Modules</h2>
+                        <h3 class="clearfix">CSS Modules</h3>
                         <img src="bilder/css-modules-logo.png" alt="css-modules-logo">
                         <p>Isolerar selektorer och ger dom nya unika namn. Detta gör så att du aldrig kommer blanda ihop namnen. Kan vara väldigt användbart vid 
                             större projekt där många selektorer används. Detta är ett av de mest använda pluginsen till PostCSS just nu. Den brukar finnas med 
                             i färdiga "PostCSS paket".
                         </p>
                     </li>
-                </section>
-                <div class="clearfix"></div>
-                <section>
                     <li>
-                        <h2>Stylelint</h2>
+                        <h3 class="clearfix">Stylelint</h3>
                         <img src="bilder/stylelint-logo.svg" alt="stylelint-logo">
                         <p>Stylelint är en såkallad linter som analyserar koden du skrivit och letar upp eventuella fel. Dessa fel kan vara stavningsfel, syntax error 
                             samt struktur problem. Detta är också ett av de mest använda pluginsen som finns till PostCSS och används bl. annat. av Wikipedia, 
                             Facebook och Github. På samma sätt som CSS modules så brukar stylelint finnas med i färdiga plugin packs.</p>
                     </li>
-                </section>
-                <div class="clearfix"></div>
-                <section>
                     <li>
-                        <h2>CSS-next</h2>
+                        <h3 class="clearfix">CSS-next</h3>
                         <img src="bilder/cssnextnext.svg" alt="CSS-next">
                         <p>CSSnext Emulerar framtida standarder/funktioner inom CSS redan idag.
                         CSSnext transfomerar nya CSS specifikationer till mer kompatibel CSS så att du inte behöver
@@ -75,19 +65,14 @@
                         Med CSSnext kan du skriva framtidsäker CSS och samtidigt helt glömma gammal preprocessor syntax.
                         </p>
                     </li>
-                </section>
-                <div class="clearfix"></div>
-                <section>
                     <li>
-                        <h2>CSSNano</h2>
+                        <h3 class="clearfix">CSSNano</h3>
                         <p>CSSnano Förkortar CSS koden för att minska ner filstorleken genom att ta bort mellanslag mm. Semantiken för denna CSS förblir densamma, 
                             men alla extra mellanslag samt radbrytningar har tagits bort, identifierarna komprimeras och onödiga definitioner rensas från stilarket. 
                             Detta ger dig en mycket mindre CSS för produktionsanvändning.</p>
                     </li>
-                </section>
-                <section>
                     <li>
-                        <h2>RTLCSS</h2>
+                        <h3>RTLCSS</h3>
                         <p>RTLCSS (Right-to-left CSS) Anpassar koden så att designen är fungerar för när man skriver från höger till vänster
                         (t.ex Arabiska) används av WordPress. <br>
                         CSSnext gör mer än att bara ändra vänster till höger, pluginet erbjuder full support för alla CSS3s
@@ -95,8 +80,7 @@
                         Pluginet tillåter dig även att anpassa tvåriktiga strängkartor för att matcha din konvention och
                         enkelt styra URL-uppdateringar.
                     </p>
-                    </li>
-                </section>
+                </li>
             </ul>
         </article>
     </main>

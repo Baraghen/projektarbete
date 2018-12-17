@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     
     <nav>
         <ul>
-            <li><a href="intro.html">Intro</a></li>
+            <li><a href="intro.html">Introduktion</a></li>
             <li><a href="historik.html">Historik</a></li>
             <li><a href="om-postcss.html">Om PostCSS</a></li>
             <li><a href="funktioner.html">Plug-ins</a></li>
@@ -28,8 +28,7 @@
     
     <main>
         <article>
-            <section>
-                <h1>Om PostCSS</h1>
+            <h2>Om PostCSS</h2>
                 <p>
                     Då PostCSS är opensource och alla plugins är skapade av användarna är det fantasin som sätter gränserna.
                     Finns ett behov för en funktion som saknas i css så kan detta skapas och delas ut vilket är ett av
@@ -41,60 +40,52 @@
                     Innan PostCSS dök upp används ofta t.ex. Sass, Less eller Stylus. Dessa används än idag men fler och fler
                     tycks hoppa över till att använda PostCSS.
                 </p>
-            </section>
-
-            <h2>Fördelar/nackdelar</h2>
-
-            <section>
-                <h3>Fördelar</h3>
-                <ul>
-                    <li>
-                        <strong>Flexibelt: </strong>PostCSS har många unika Plugins som hjälper en med arbetet. Ramverket
-                        används ofta tillsammans med andra ramverk såsom Sass och Less.
-                    </li>
-                    <li>
-                        <strong>Effektivt: </strong>PostCSS har såpass många plugins att det täcker nästan hela CSS
-                        användningsområde, tex debugging. Ramverket tillåter då alla CSS verktyg att använda samma parser,
-                        arkitektur och utvecklingsverktyg. Det skapar även bättre prestanda då alla plugins använder sig av
-                        samma objekt-träd, till skillnad från att varje plugin har sina egna.
-                    </li>
-                    <li>
-                        <strong>Valmöjligheter + opensource: </strong>Användaren bestämmer själv vilka plugins man vill använda
-                        och kan stänga av de onödiga för bättre prestanda. Med olika plugins som löser samma problem kan man då
-                        själv bestämma vilket som passar en bäst. Andrey Sitnik tror att desto populärare en plugin blir desto
-                        bättre kommer de så småningom bli.
-                    </li>
-                    <li>
-                        <strong>Snabbhet: </strong>PostCSS använder sig av de snabbaste Javascript-baserade CSS-parsers. Det är
-                        upp till 20 gånger snabbare Ruby Sass och fyra gånger snabbare än Less i grundlig preprocessing.
-                        Egentligen bestäms effektiviteten över hur många plugins man använder.
-                    </li>
-                </ul>
-            </section>
-
-            <section>
-                <h3>Nackdelar</h3>
-                <ul>
-                    <li>
-                        <Strong>Omständigt: </Strong>Svårt att konfigurera, många utvecklare undviker gärna bördan att välja plugins
-                        och formatera dem så de går att användas tillsammans.
-                    </li>
-                    <li>
-                        <strong>Non-standard syntax: </strong> Non-standard syntax: Eftersom olika projekt använder olika plugin-set
-                        kan det tex vara svårt för nya utvecklare att se att funktionerna i projektet är relaterade till ett PostCSS plugin.
-                        Det är rekommenderat att indikera filens plugins med PostCSS-use , men många upplever det onödigt.
-                        <a href="bilder/postcss-use.PNG"><em>Exempel på PostCSS-use</em></a>
-                    </li>
-                    <li>
-                        <strong>Selektorer och värden: </strong>Använder separata parsers. PostCSS sparar selektorer och egenskapers värden
-                        linjärt utan att fortsätta analysera och tolka dem. För att göra detta behöver plugins använda sig av extra parsers.
-                    </li>
-                    <li>
-                        <strong>Sekvent processering: </strong>Eftersom att objekt-trädet bara svarar på ett plugin åt gången kan
-                        prestandan försvagas om man använder flera plugins samtidigt.
-                    </li>
-                </ul>
-            </section>
+        <h2>Fördelar/nackdelar</h2>
+        <h3>Fördelar</h3>
+            <ul>
+                <li>
+                    <strong>Flexibelt: </strong>PostCSS har många unika Plugins som hjälper en med arbetet. Ramverket
+                    används ofta tillsammans med andra ramverk såsom Sass och Less.
+                </li>
+                <li>
+                    <strong>Effektivt: </strong>PostCSS har såpass många plugins att det täcker nästan hela CSS
+                    användningsområde, tex debugging. Ramverket tillåter då alla CSS verktyg att använda samma parser,
+                    arkitektur och utvecklingsverktyg. Det skapar även bättre prestanda då alla plugins använder sig av
+                    samma objekt-träd, till skillnad från att varje plugin har sina egna.
+                </li>
+                <li>
+                    <strong>Valmöjligheter + opensource: </strong>Användaren bestämmer själv vilka plugins man vill använda
+                    och kan stänga av de onödiga för bättre prestanda. Med olika plugins som löser samma problem kan man då
+                    själv bestämma vilket som passar en bäst. Andrey Sitnik tror att desto populärare en plugin blir desto
+                    bättre kommer de så småningom bli.
+                </li>
+                <li>
+                    <strong>Snabbhet: </strong>PostCSS använder sig av de snabbaste Javascript-baserade CSS-parsers. Det är
+                    upp till 20 gånger snabbare Ruby Sass och fyra gånger snabbare än Less i grundlig preprocessing.
+                    Egentligen bestäms effektiviteten över hur många plugins man använder.
+                </li>
+            </ul>
+        <h3>Nackdelar</h3>
+            <ul>
+                <li>
+                    <Strong>Omständigt: </Strong>Svårt att konfigurera, många utvecklare undviker gärna bördan att välja plugins
+                    och formatera dem så de går att användas tillsammans.
+                </li>
+                <li>
+                    <strong>Non-standard syntax: </strong> Non-standard syntax: Eftersom olika projekt använder olika plugin-set
+                    kan det tex vara svårt för nya utvecklare att se att funktionerna i projektet är relaterade till ett PostCSS plugin.
+                    Det är rekommenderat att indikera filens plugins med PostCSS-use , men många upplever det onödigt.
+                    <a href="bilder/postcss-use.PNG"><em>Exempel på PostCSS-use</em></a>
+                </li>
+                <li>
+                    <strong>Selektorer och värden: </strong>Använder separata parsers. PostCSS sparar selektorer och egenskapers värden
+                    linjärt utan att fortsätta analysera och tolka dem. För att göra detta behöver plugins använda sig av extra parsers.
+                </li>
+                <li>
+                    <strong>Sekvent processering: </strong>Eftersom att objekt-trädet bara svarar på ett plugin åt gången kan
+                    prestandan försvagas om man använder flera plugins samtidigt.
+                </li>
+            </ul>
         </article>
     </main> 
     <div class="clearfix"></div>
