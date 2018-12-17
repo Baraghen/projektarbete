@@ -37,7 +37,7 @@ nav ul{
     overflow: hidden;
     display: table;
     width: 100%;
-    background-color:#3D3D3D;
+    background-color:#3d3d3d;
 }
 
 nav li{
@@ -49,8 +49,9 @@ nav li a {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 14px 5px;
 }
+
 
         /*MAIN CONTENT*/
 body{
